@@ -1,8 +1,12 @@
+html {
+  background-color: rgba(226, 232, 240, 255);
+}
 .main-section {
   background-color: rgba(226, 232, 240, 255);
   height: 70vh;
-  overflow: hidden;
-  width: auto;
+  flex-wrap: wrap;
+  overflow: visible;
+  width: 80%;
 }
 
 .card h1 {
@@ -35,4 +39,45 @@
 .card-footer {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+}
+
+.announcements-section {
+  margin: 10px;
+  width: 100%;
+  overflow: visible;
+}
+
+.announcements-section h1 {
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+
+.trending-card {
+  background-color: #fff;
+  border-radius: 10px 10px 0 10px;
+  margin: 1px 1px 5px 1px;
+}
+
+.trend-card {
+  display: flex;
+}
+
+.trending-section {
+  margin: 10px;
+  height: auto;
+}
+
+.trends-announcements {
+  background-color: rgba(226, 232, 240, 255);
+}
+
+.announcement-card-wrapper {
+  background-color: #fff;
 }
