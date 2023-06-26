@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Main from './Main'
+import HomeIcon from '@mui/icons-material/Home';
 
 function Header() {
   return (
