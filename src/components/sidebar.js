@@ -12,10 +12,11 @@ function Sidebar() {
     <div className='sidebar-content'>
         <ul>
             <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
-            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>History</li>
+            <li>Tasks</li>
+            <li>Communities</li>
         </ul>
     </div>
 
