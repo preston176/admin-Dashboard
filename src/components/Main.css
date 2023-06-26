@@ -1,0 +1,38 @@
+.main-section {
+  background-color: rgba(226, 232, 240, 255);
+  height: 70vh;
+  overflow: hidden;
+  width: auto;
+}
+
+.card h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.card p {
+  font-size: 20px;
+  color: rgb(185, 183, 183);
+  font-weight: normal;
+}
+.main-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 2px 0 2% 2%;
+  width: 200px;
+  overflow: hidden;
+  border-left: 4px solid rgba(240, 180, 41, 255);
+  border-right: 1px solid;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-radius: 2px;
+  box-shadow: 1px 1px black;
+  background-color: white;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row-reverse;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import Main from './Main'
 
 function Header() {
   return (
@@ -22,8 +23,11 @@ function Header() {
         <button>Upload</button>
         <button>Share</button>
     </div>
+    
 </div>
+<Main />
     </div>
+    
   )
 }
 
