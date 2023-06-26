@@ -1,0 +1,21 @@
+* {
+  line-height: 300%;
+  color: #fff;
+  font-weight: bold;
+}
+.sidebar-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 0.1;
+  width: 25%;
+  height: 100vh;
+  background-color: rgba(25, 146, 212, 255);
+}
+.Head-section {
+  display: flex;
+  flex: 0.2;
+}
+
+.sidebar-content li {
+  list-style: none;
+}
