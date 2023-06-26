@@ -6,12 +6,15 @@ import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
 import HistoryIcon from '@mui/icons-material/History';
 import PeopleIcon from '@mui/icons-material/People';
 import SettingsIcon from '@mui/icons-material/Settings';
+import SupportIcon from '@mui/icons-material/Support';
+import SecurityIcon from '@mui/icons-material/Security';
+import DashboardIcon from '@mui/icons-material/Dashboard';
 
 function Sidebar() {
   return (
     <div className='sidebar-wrapper'>
         <div className='Head-section'>
-            <img src='#'></img>
+        <i><DashboardIcon /></i>
             <p>Dashboard</p>
             </div>
 
@@ -28,9 +31,9 @@ function Sidebar() {
 
     <div className='sidebar-content'>
         <ul>
-            <li><span>SettingsIcon</span>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+            <li><span><SettingsIcon /></span>Settings</li>
+            <li><span><SupportIcon /></span>Support</li>
+            <li><span><SecurityIcon /></span>Privacy</li>
         </ul>
     </div>
         

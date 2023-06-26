@@ -1,5 +1,6 @@
 import React from 'react'
 import './Main.css'
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 function Main() {
   return (
@@ -84,7 +85,7 @@ function Main() {
         <p>Trending</p>
         <div className='trending-card'>
             <div className='trend-card'>
-                <img src='#'></img>
+            <i><AccountCircleIcon /></i>
                 <div className='trend-card-texts'>
                     <p>@tegan</p>
                     <p>World Peace Builder</p>
@@ -93,7 +94,7 @@ function Main() {
         </div>
         <div className='trending-card'>
             <div className='trend-card'>
-                <img src='#'></img>
+                <i><AccountCircleIcon /></i>
                 <div className='trend-card-texts'>
                     <p>@tegan</p>
                     <p>World Peace Builder</p>

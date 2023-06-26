@@ -49,6 +49,7 @@ html {
 
 .announcements-section {
   margin: 10px;
+
   width: 100%;
   overflow: visible;
 }
@@ -67,6 +68,7 @@ html {
 
 .trend-card {
   display: flex;
+  align-items: center;
 }
 
 .trending-section {

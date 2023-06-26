@@ -4,7 +4,17 @@
   height: 20vh;
   color: #000;
   font-weight: bold;
-  z-index: 0;
+}
+
+.heading-one {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-one-section-child {
+  display: flex;
+  align-items: center;
+  margin: 1px 10px 1px 10px;
 }
 
 .image-section {
@@ -30,4 +40,30 @@
   width: 10vh;
   outline: none;
   border: none;
+}
+
+.search {
+  display: flex;
+  max-width: 300px;
+  padding-bottom: 10px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #e4fff9;
+  grid-area: search;
+}
+
+.search-bar {
+  opacity: 0;
+  background: none;
+  background-color: none;
+}
+
+.avatar-icon {
+  width: 80px;
+  border-radius: 40px;
+}
+
+.avatar-icon-heading {
+  width: 60px;
+  border-radius: 30px;
 }
