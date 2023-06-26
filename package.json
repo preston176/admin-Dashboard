@@ -1,6 +1,7 @@
 {
   "name": "admin-dashboard",
   "version": "0.1.0",
+  "homepage": "https://preston176.github.io/react-gh-pages",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -40,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
